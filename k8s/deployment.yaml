@@ -20,7 +20,7 @@ spec:
       schedulerName: default-scheduler
       containers:
       - name: express-sample-app
-        image: quay.io/ymatsunami/express-sample-app:de33c14a8617d787c97ed0de6b073a423637a652
+        image: quay.io/ymatsunami/express-sample-app:fd6a0c333f47bca1fdf9f203dd2164b472bfe882
         ports:
         - name: http
           protocol: TCP
